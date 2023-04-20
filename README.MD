@@ -38,9 +38,21 @@
     ❌ Paylanmış sistemlər mürəkkəbdir, bu da development, testing və deploymenti çətinləşdirir
     ❌ Mikroservis arxitekturasının nə vaxt istifadə ediləcəyinə qərar vermək çətindir
 
+## SDLC - Software Development Life Cycle
 
-
+![img.png](imgs/sdlc.png)
+Mənbə: Adil Əliyev
 
 ## Git Version Control
+
+![img.png](imgs/git-arch.png)
+[Mənbə](https://github.com/pushpankq/Git-Commands-)
+
+
+![img.png](imgs/git-commands.png)
+[Mənbə](https://twitter.com/profulsadangi/status/1311319902049972226/photo/1)
+
+
+
 ## Spring Boot Foundation
 
