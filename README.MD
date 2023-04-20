@@ -2,7 +2,7 @@
 
 ## Monolit vs Mikroservis
 
-![img.png](imgs/mono-vs-micro.png)
+![img.png](imgs/monolit-vs-micro.png)
 
 ### 👍 Monolit arxitekturanın üstünlükləri:
     ✅ Development asandır
