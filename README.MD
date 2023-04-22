@@ -52,6 +52,8 @@ Mənbə: Adil Əliyev
 ![img.png](imgs/git-commands.png)
 [Mənbə](https://twitter.com/profulsadangi/status/1311319902049972226/photo/1)
 
+🎥 Videos
+* [Git From the Bits Up](https://www.youtube.com/watch?v=MYP56QJpDr4&ab_channel=InfoQ)
 
 
 ## Spring Boot Foundation
