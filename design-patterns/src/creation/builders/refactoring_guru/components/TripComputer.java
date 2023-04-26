@@ -1,6 +1,6 @@
-package creation.builders.guru.components;
+package creation.builders.refactoring_guru.components;
 
-import creation.builders.guru.car.Car;
+import creation.builders.refactoring_guru.car.Car;
 
 public class TripComputer {
 

@@ -1,9 +1,9 @@
-package creation.builders.guru.car;
+package creation.builders.refactoring_guru.car;
 
-import creation.builders.guru.components.Engine;
-import creation.builders.guru.components.GPSNavigator;
-import creation.builders.guru.components.Transmission;
-import creation.builders.guru.components.TripComputer;
+import creation.builders.refactoring_guru.components.Engine;
+import creation.builders.refactoring_guru.components.GPSNavigator;
+import creation.builders.refactoring_guru.components.Transmission;
+import creation.builders.refactoring_guru.components.TripComputer;
 
 public class Manual {
 

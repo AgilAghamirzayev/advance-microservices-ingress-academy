@@ -1,11 +1,11 @@
-package creation.builders.guru.director;
+package creation.builders.refactoring_guru.director;
 
-import creation.builders.guru.builders.Builder;
-import creation.builders.guru.car.CarType;
-import creation.builders.guru.components.Engine;
-import creation.builders.guru.components.GPSNavigator;
-import creation.builders.guru.components.Transmission;
-import creation.builders.guru.components.TripComputer;
+import creation.builders.refactoring_guru.builders.Builder;
+import creation.builders.refactoring_guru.car.CarType;
+import creation.builders.refactoring_guru.components.Engine;
+import creation.builders.refactoring_guru.components.GPSNavigator;
+import creation.builders.refactoring_guru.components.Transmission;
+import creation.builders.refactoring_guru.components.TripComputer;
 
 public class Director {
 

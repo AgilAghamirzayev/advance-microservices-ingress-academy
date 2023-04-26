@@ -1,4 +1,4 @@
-package creation.builders.guru.components;
+package creation.builders.refactoring_guru.components;
 
 public class GPSNavigator {
     private String route;

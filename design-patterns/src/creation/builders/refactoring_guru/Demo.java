@@ -1,10 +1,10 @@
-package creation.builders.guru;
+package creation.builders.refactoring_guru;
 
-import creation.builders.guru.builders.CarBuilder;
-import creation.builders.guru.builders.CarManualBuilder;
-import creation.builders.guru.car.Car;
-import creation.builders.guru.car.Manual;
-import creation.builders.guru.director.Director;
+import creation.builders.refactoring_guru.builders.CarBuilder;
+import creation.builders.refactoring_guru.builders.CarManualBuilder;
+import creation.builders.refactoring_guru.car.Car;
+import creation.builders.refactoring_guru.car.Manual;
+import creation.builders.refactoring_guru.director.Director;
 
 public class Demo {
 
