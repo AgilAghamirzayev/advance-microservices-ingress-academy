@@ -129,7 +129,6 @@ Useful commands
   * SOLID (Open/Closed prinsipi)
 
 
-
 ### Structural
 ### Behavior
 
