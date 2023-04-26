@@ -1,4 +1,4 @@
-package creation.fafctory;
+package creation.factory;
 
 public class CachePayment implements Payment {
 
