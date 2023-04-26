@@ -127,7 +127,10 @@ Useful commands
 
 * Factory
   * SOLID (Open/Closed prinsipi)
+  * 
 
+* Abstract Factory
+  * Factory of factory
 
 ### Structural
 ### Behavior
