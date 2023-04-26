@@ -121,12 +121,6 @@ Useful commands
     * Can introduce concurrency issues
   * [Code](design-patterns/src/creation/singleton)
     
-* Builder
-  * Çoxlu konstrukturun qarşısını alır
-  * [Code](design-patterns/src/creation/builders)
-
-* Factory
-  * SOLID (Open/Closed prinsipi)
 
 
 ### Structural
