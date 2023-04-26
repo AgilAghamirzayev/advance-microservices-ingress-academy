@@ -123,7 +123,10 @@ Useful commands
     
 * Builder
   * Çoxlu konstrukturun qarşısını alır
-  * 
+  * [Code](design-patterns/src/creation/builders)
+
+* Factory
+  * SOLID (Open/Closed prinsipi)
 
 
 ### Structural
