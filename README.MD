@@ -23,7 +23,7 @@
 
 ### 👍 Mikroservis arxitekturanın üstünlükləri:
     ✅ Çeviklik – Kiçik komanadalar ilə fərqli servislər üzərində çevik işləyib deploy etmək
-    ✅ Flexible scaling
+    ✅ Flexible scaling (Vertical and horizontal)
     ✅ Davamlı deployment – Tez-tez və daha sürətli deploy olunur. Monolit ilə həftədə bir dəfə yeniləmələri yayımlayırdıqsa indi gündə iki-üç dəfə edə bilərik.
     ✅ Müstəqil deployment
     ✅ Yeni texnologiyalara adaptasiya olmaq
@@ -132,7 +132,21 @@ Useful commands
 * Abstract Factory
   * Factory of factory
 
+* Prototype
+
+---
+
 ### Structural
+
+* Adapter
+  * 3-rd party və business core-a qoşulmaq üçün istifadə olunur
+  * istifadə etməsək inteqrasiyanı yazdığımız ms-lərdə məntiqi təkrarlanacaq
+  * 
+
+* Bridge
+  * iki sistem arasında ortaq nöqtə yaradırıq ki onları birləşdirib rahat istifadə edək
+  * Məsələn Developer iki app yaratmaq istəyir burda biz interface vasitəsi ortaq komponentlərini implement edə bilirik
+
 ### Behavior
 
 ---
