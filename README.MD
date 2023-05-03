@@ -43,147 +43,17 @@
 ![img.png](imgs/sdlc.png)
 Mənbə: Adil Əliyev
 
-## Git Version Control
-
-![img.png](imgs/git-arch.png)
-[Mənbə](https://github.com/pushpankq/Git-Commands-)
-
-
-![img.png](imgs/git-commands.png)
-[Mənbə](https://twitter.com/profulsadangi/status/1311319902049972226/photo/1)
-
-* git commit --amend -> add changes to previous commits
-* git commit --amend -m "Commit message" -> add changes and change previous commit
-* git revert <commit-id> -> delete the changes and create new commit
-* git reset --hard <commit-id> -> delete the changes and commits to commit-id
 ---
 
-* git branch -> shows all branches
-* git branch develop -> create new branch
-* git checkout develop -> switch to develop branch
-* git checkout -b new-branch -> create new branch and switch to the branch
-* git branch -d new-branch -> delete new branch
+[GIT](git-practice/git.md)
+
+---
+[Design patterns](design-patterns/pattern.md)
+
+---
+[Solid principles](solid-pinciples/solid.md)
 
 ---
 
-* git stash -> stores all changes in workspace and does not commit
-* git stash list -> see all stash lists
-* git stash clear -> delete the stash list and doesn't appear in workspace
-* git stash pop -> come back to the last stashed changes and delete from stash list
-* git stash apply <stash-id> -> come back to the last stashed changes and doesn't delete from stash list
-
----
-
-* git merge <branch-name> -> merge branch to HEAD branch
-* git merge --squash <branch-name> -> merge branch to HEAD branch, and then you should write commit message (git commit -m "message")
-* git merge --abort -> abort conflict merge
-* git rebase -> merge branch to HEAD branch and keep git history clean
-* Note: merge create comment but rebase doesn't create comment
-
-
----
-Useful commands
-
-* watch --color -n 2 "git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all"
-
-
-
-🎥 Videos
-* [Git From the Bits Up](https://www.youtube.com/watch?v=MYP56QJpDr4&ab_channel=InfoQ)
-📝 Articles
-* [Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing#the-golden-rule-of-rebasing)
-* [Best Practices for Your Git Branches](https://medium.com/git-happy/10-key-best-practices-for-git-branch-management-b0e7ec4148b9)
-* [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
-* 
-
-
----
-
-## Design patterns
-
-### Creation
-* Singleton
-  * Bir sinifin yanlız bir obyekti yaranır
-  * Java core kitabxanasında singleton nümunələri:
-    * java.lang.Runtime#getRuntime()
-    * java.awt.Desktop#getDesktop()
-    * java.lang.System#getSecurityManager()
-  * Use cases: 
-    * Resource management (database connection or a file handle)
-    * Configuration settings
-    * Logging
-    * Cache management
-    * Utility classes
-  * Drawbacks:
-    * Singleton qırılsa bütün proyektə təsir edəcək
-    * Global state (difficult to maintain and test)
-    * Difficult to test
-    * Can introduce concurrency issues
-  * [Code](design-patterns/src/creation/singleton)
-    
-* Builder
-  * Çoxlu konstrukturun qarşısını alır
-  * [Code](design-patterns/src/creation/builders)
-
-* Factory
-  * SOLID (Open/Closed prinsipi)
-  * 
-
-* Abstract Factory
-  * Factory of factory
-
-* Prototype
-
----
-
-### Structural  (classların strukturunun bir-biri ilə əlaqəsi)
-
-* Adapter
-  * 3-rd party və business core-a qoşulmaq üçün istifadə olunur
-  * istifadə etməsək inteqrasiyanı yazdığımız ms-lərdə məntiqi təkrarlanacaq
-  * 
-
-* Bridge
-  * iki sistem arasında ortaq nöqtə yaradırıq ki onları birləşdirib rahat istifadə edək
-  * Məsələn Developer iki app yaratmaq istəyir burda biz interface vasitəsi ortaq komponentlərini implement edə bilirik
-  * Hansısa ortaq komponentlərə ehiyac varsa abstration yaradıb bridge patterni istifadə etməklə rahat implement edə bilirik
-  * coverts from interface to composition
-  * Application (fb, ln) -> PhoneOS (android, iphone) -> App::run -> runs apps in phones
-  * [Code](design-patterns/src/structural/bridge)
-
-* Facade
-  * Adapter kimidir amma məntiq yazılır
-  * İnteqeasiya deyil sadəcə complex bir ms varsa onu handle etmək üçün istifadə etmək olar
-
-* Proxy
-  * Təhlükəsizlik üçüm əsasən istifadə olunur
-  * Datanı proxydə istifadə edib sonra istifadə etdir
-  * Client -> Proxy -> Database
-  * @Transaction and @Async nümunə
-  * Clients -> cache (Disk proxy) -> disk
-
-* Composite
-* Decorator
-* Flyweight
-
-### Behavior  (classların funksyonallıqların bir-biri ilə əlaqəsi)
-
-* Iterator
-
-* Strategy
-  * Eyniməntiqli və funksyonallığı (alqoritmi) fərqli olan üçün bir abstraction qurulur və funksyonallıq ayrı-ayrı handle olunur
-  * NotificationProvider -> SmsProvider, MailProvider, TelegramProvider
-  * Proqramın strukturunu dəyişmədən yeni funksyonallıq əlavə etmək olar
-  * 
-
-* Chain of responsibility
-  * priority məntiqi harda varsa orda istifadə olunur
-  * bir-birindən ayrı komponentlərin priorityə görə ardıcıl görülməsi
-
-
-* Observer
-  * PUB - SUB 
-
----
 ## Spring Boot Foundation
 
