@@ -35,3 +35,4 @@ Dependency Inversion Principle (DIP):
 Together, these principles help to create more modular, flexible, and scalable software that can be easily maintained and updated over time.
 
 
+[SOLID Design Principles](https://stackify.com/solid-design-principles/)
