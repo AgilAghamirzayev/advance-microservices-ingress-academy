@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 
@@ -17,6 +18,11 @@ public class BreakTheMagicianOfSpringBootApplication {
   @Bean
   public TomcatServletWebServerFactory containerFactory() {
     return new TomcatServletWebServerFactory();
+  }
+
+  @Bean
+  public DispatcherServlet dispatcherServlet() {
+    return new DispatcherServlet();
   }
 
   public static void main(String[] args) {
