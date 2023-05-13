@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MagicOfSpringBootApplication {
 
   public static void main(String[] args) {
+    SpringApplication application = new SpringApplication(MagicOfSpringBootApplication.class);
+    // configure
+    // application.run(args);
 
     SpringApplication.run(MagicOfSpringBootApplication.class, args);
 

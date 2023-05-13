@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.RequestScope;
 
 @Component
-@Scope(value = "prototype")
+//@Scope(value = "prototype")
 //@Scope(value = "prototype", proxyMode = ScopedProxyMode.TARGET_CLASS)
 //@RequestScope
 public class Student {

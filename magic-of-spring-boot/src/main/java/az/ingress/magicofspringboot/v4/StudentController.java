@@ -2,12 +2,15 @@ package az.ingress.magicofspringboot.v4;
 
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import lombok.Getter;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
-@Controller
-@Scope("prototype")
+@RestController
+@RequestMapping
 public class StudentController {
 
   private final Student student;
@@ -17,17 +20,11 @@ public class StudentController {
     this.student = student;
   }
 
-  @RequestMapping("/student")
-  public void getStudentName(HttpServletResponse response) throws IOException {
-    response.getWriter().write("Student name: " + student.getName() + "\n");
-    student.setName("Vali");
-    response.getWriter().write("Student name: " + student.getName());
+  @GetMapping
+  public String getStudentName() {
+    return "Test";
   }
 
-  @RequestMapping("/student-1")
-  public void getStudentName2(HttpServletResponse response) throws IOException {
-    response.getWriter().write("Student name: " + student.getName());
-  }
 
 
 }
