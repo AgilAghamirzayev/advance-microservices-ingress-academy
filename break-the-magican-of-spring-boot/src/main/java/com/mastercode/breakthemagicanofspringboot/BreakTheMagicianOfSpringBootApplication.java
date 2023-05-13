@@ -1,14 +1,10 @@
 package com.mastercode.breakthemagicanofspringboot;
 
+import com.mastercode.breakthemagicanofspringboot.config.MagicApplication;
 import org.springframework.boot.SpringApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 
-
-@Configuration
-@ComponentScan
+@MagicApplication
 public class BreakTheMagicianOfSpringBootApplication {
-
 
   public static void main(String[] args) {
 
