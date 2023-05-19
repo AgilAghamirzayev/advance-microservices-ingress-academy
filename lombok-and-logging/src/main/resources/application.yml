@@ -1,0 +1,3 @@
+logging:
+  level:
+    az.ingress.lombokandlogging.service: trace
