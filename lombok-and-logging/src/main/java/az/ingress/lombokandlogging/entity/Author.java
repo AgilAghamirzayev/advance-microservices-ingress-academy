@@ -13,6 +13,5 @@ import lombok.*;
 public class Author {
     private int id;
     private String name;
-    @Setter(AccessLevel.PROTECTED)
     private String surname;
 }
