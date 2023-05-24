@@ -1,4 +1,4 @@
-package behavior.strategy;
+package behavior.strategy1;
 
 public class LowercaseStrategy implements PrintStrategy{
 
