@@ -12,6 +12,6 @@ public class BookRequestModel {
   private String name;
   private String title;
   private String description;
-  private List<AuthorRequestModel> authors;
+//  private List<AuthorRequestModel> authors;
   private LocalDate published;
 }

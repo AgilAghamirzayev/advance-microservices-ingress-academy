@@ -1,3 +1,20 @@
-logging:
-  level:
-    az.ingress.lombokandlogging.service: trace
+#logging:
+#  level:
+#    az.ingress.lombokandlogging.service: trace
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/library
+    username: postgres
+    password: postgres
+#  jpa:
+#    database-platform: org.postgresql.dialect.PostgreSQL10Dialect
+
+#  not appear null fields in json
+#  jackson:
+#    default-property-inclusion: non_null
+
+#  default-property
+  liquibase:
+    change-log: classpath:liquibase/changelog-master.yml

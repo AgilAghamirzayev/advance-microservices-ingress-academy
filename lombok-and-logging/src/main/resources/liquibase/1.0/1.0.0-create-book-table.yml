@@ -1,0 +1,60 @@
+databaseChangeLog:
+  - changeSet:
+      id: create book table
+      author: Agil Aghamirzayev
+      description: create book table to store book data
+      changes:
+        - createTable:
+            tableName: books
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(64)
+                  remarks: name of book
+                  constraints:
+                    nullable: false
+              - column:
+                  name: title
+                  type: varchar(256)
+                  remarks: title of book
+                  constraints:
+                    nullable: false
+              - column:
+                  name: description
+                  type: text
+                  remarks: description of book
+              - column:
+                  name: is_deleted
+                  type: bool
+                  remarks: This book deleted or not
+                  constraints:
+                    nullable: false
+              - column:
+                  name: published_at
+                  type: timestamp
+                  remarks: published date of book
+                  constraints:
+                    nullable: false
+              - column:
+                  name: created_at
+                  type: timestamp
+                  defaultValue: now()
+                  remarks: created date of the column
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_at
+                  type: timestamp
+                  defaultValue: now()
+                  remarks: updated date of the column
+                  constraints:
+                    nullable: false
+
+            remarks: table to store data of books
