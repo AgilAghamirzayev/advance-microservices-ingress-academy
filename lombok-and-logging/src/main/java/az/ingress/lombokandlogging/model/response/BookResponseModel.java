@@ -13,7 +13,7 @@ public class BookResponseModel {
   private String name;
   private String title;
   private String description;
-  private List<AuthorResponseModel> authors;
+//  private List<AuthorResponseModel> authors;
   private LocalDate published;
   private LocalDate created;
 }

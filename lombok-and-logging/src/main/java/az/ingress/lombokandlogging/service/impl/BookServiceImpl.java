@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class BookServiceImpl implements BookService {
 
-    BookMapper bookMapper = BookMapper.INSTANCE;
+//    BookMapper bookMapper = BookMapper.INSTANCE;
 
     List<Book> books = new ArrayList<>(100);
 
