@@ -8,8 +8,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/library
     username: postgres
     password: postgres
-#  jpa:
-#    database-platform: org.postgresql.dialect.PostgreSQL10Dialect
 
 #  not appear null fields in json
 #  jackson:
