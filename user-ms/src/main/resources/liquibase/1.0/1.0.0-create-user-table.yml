@@ -1,0 +1,25 @@
+databaseChangeLog:
+  - changeSet:
+      id: create users table
+      author: Agil Aghamirzayev
+      changes:
+        - createTable:
+            tableName: users
+            columns:
+              - column:
+                  name: id
+                  type: bigint
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: name
+                  type: varchar(64)
+              - column:
+                  name: email
+                  type: varchar(256)
+              - column:
+                  name: age
+                  type: int
+
