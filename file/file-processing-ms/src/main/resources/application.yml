@@ -1,0 +1,16 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/file-process
+    username: postgres
+    password: postgres
+
+aws:
+  region: eu-west-1
+  s3:
+    mock: true
+#    buckets:
+#      student: fs-test-files

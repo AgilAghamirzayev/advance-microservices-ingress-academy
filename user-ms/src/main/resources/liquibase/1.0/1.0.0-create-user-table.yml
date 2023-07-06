@@ -1,7 +1,8 @@
 databaseChangeLog:
   - changeSet:
-      id: create users table
+      id: create user table
       author: Agil Aghamirzayev
+      description: create book table to store book data
       changes:
         - createTable:
             tableName: users
@@ -18,8 +19,21 @@ databaseChangeLog:
                   type: varchar(64)
               - column:
                   name: email
-                  type: varchar(256)
+                  type: varchar(64)
               - column:
                   name: age
                   type: int
-
+              - column:
+                  name: created_at
+                  type: timestamp
+                  defaultValue: now()
+                  remarks: created date of the column
+                  constraints:
+                    nullable: false
+              - column:
+                  name: updated_at
+                  type: timestamp
+                  defaultValue: now()
+                  remarks: updated date of the column
+                  constraints:
+                    nullable: false
